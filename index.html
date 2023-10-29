@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>My Todo App</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>My Todo List</h1>
+    <input id="taskInput" type="text" placeholder="Add new task">
+    <div class="error-message" id="error-message"></div>
+
+    <button id="addTask">Add Task</button>
+    <div id="tasks-list-container">
+      <div id="control-header">
+        <select id="show-options">
+          <option value="all">Show All</option>
+          <option value="completed">Show Completed</option>
+          <option value="active">Show Active</option>
+        </select>
+        <div>Total Todo Items: <span id="todo-count">0</span></div>
+      </div>
+
+      <ul id="taskList"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

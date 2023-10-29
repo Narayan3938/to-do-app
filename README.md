@@ -1,2 +1,2 @@
 # Todo App
-creating a to do list application
+creating a to do list application.
